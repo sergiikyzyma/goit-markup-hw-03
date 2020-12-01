@@ -3,6 +3,11 @@
     font-family: "Raleway";
     src: url("./fonts/Raleway/static/Raleway-BoldItalic.ttf");
 }
+*
+{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
 body
 {
     background-color: white;
@@ -10,22 +15,16 @@ body
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     position: absolute;
     width: 1600px;
-    padding: 0px 0px;
-    margin: 0px 0px;
 }
 h1, h2, h3
 {
     color: #212121;
     font-weight: bold;
-    padding: 0px 0px;
-    margin: 0px 0px;
 }
 li
 {
     list-style: none;
     display: inline-block;
-    padding: 0px 0px;
-    margin: 0px 0px
 }
 a
 {
@@ -33,8 +32,6 @@ a
 }
 p
 {
-    padding: 0px 0px;
-    margin: 0px 0px;
     width: 300px;
 }
 header
@@ -45,8 +42,8 @@ header
     height: 80px;
     text-align: center;
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding-left: 215px;
 }
 footer
 {
@@ -56,8 +53,8 @@ footer
     height: 252px;
     text-align: left;
     display: flex;
-    justify-content: left;
     align-items: center;
+    padding-left: 215px;
 }
 .main_team
 {
@@ -69,6 +66,7 @@ footer
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 215px;
 }
 .main_team h1
 {
@@ -83,10 +81,11 @@ footer
     background-color: #FFFFFF;
     color: #757575;
     font-size: 14pt;
+    height: 300px;
     text-align: left;
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding-left: 215px;
 }
 .task_team h3
 {
@@ -110,12 +109,8 @@ footer
     height: 640px;
     text-align: center;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-.nav_menu
-{
-    margin: -20px -30px;
+    padding-left: 215px;
 }
 .nav_menu a:hover, a:focus
 {
@@ -131,9 +126,13 @@ footer
     letter-spacing: 0.03em;
     margin-inline: 50px;
 }
-.nav_menu span
+.nav_menu >menu
 {
-    margin-left: 500px;
+    display: inline;
+}
+.nav_menu >menu:last-child
+{
+    padding-left: 215px;
 }
 .order
 {
@@ -152,10 +151,6 @@ footer
 .dream_team img
 {
     width: 270px;
-}
-.team_address
-{
-    margin: 0px -30px;
 }
 .team_address h2
 {
